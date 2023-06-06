@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    background-color: blue;
+}
+
+#profile {
+    display: flex;
+}
+
+#profile.div {
+    display: flex;
+    border: 5px solid black;
+}

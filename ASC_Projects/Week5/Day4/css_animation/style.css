@@ -1,0 +1,77 @@
+body {
+    background-color: lightblue;
+    margin: 0;
+    overflow: hidden;
+
+    animation: colorChange;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+h1 {
+    color: rebeccapurple;
+    padding: 30px;
+    font-size: 50px;
+
+    animation: colorChange 5s forwards reverse, multipleColorChanges 5s;
+
+}
+
+img {
+    transform: translateX(-455px);
+
+    animation: moveRight;
+    animation-duration:  5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinte;
+}
+
+@keyframes colorChange {
+    from {
+        background-color: lightblue;
+    }
+
+    to {
+        background-color: black;
+    }
+}
+
+@keyframes multipleColorChanges {
+    0% {
+        color: rebeccapurple;
+    }
+
+    20% {
+        color: blue;
+    }
+
+    40% {
+        color: goldenrod;
+    }
+
+    60% {
+        color: chartreuse;
+    }
+
+    80% {
+        color: blue;
+    }
+
+    100% {
+        color: rebeccapurple;
+    }
+}
+
+@keyframes moveRight {
+    0%{
+        transform: translateX(-455px) translateY(0);
+    }
+
+    50% {
+        transform: translateY(400) translateX( calc( (100vw-455px)/2) ) ;
+    }
+
+    100% {
+        transform: translateX(100vw) translateY(0);
+    }
+}

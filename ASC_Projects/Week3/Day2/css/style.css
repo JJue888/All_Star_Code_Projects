@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    background-color: rgba(240, 54, 34, .8);
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    border: solid black 10px;
+    padding: 50px;
+}
+
+body {
+    background: rgba(61, 34, 30, 0.8);
+    font-size: 20px;
+}
+
+h2 {
+    color:rgb(79, 30, 156)
+}
+
+img {
+    width: 200px;
+}
+
+ol{
+    color:seagreen;
+    text-decoration: underline overline;
+}
+
+div p {
+    font-size: 35px;
+    color: skyblue;
+}
+
+#steveFit {
+    font-size: 60px;
+    color:tan;
+}
+
+.imageClass {
+    border: solid blue 20px;
+    border-radius: 20px;
+    padding: 10px;
+}

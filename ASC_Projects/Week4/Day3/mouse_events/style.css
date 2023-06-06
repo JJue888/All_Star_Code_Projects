@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    background-color: aquamarine;
+}
+
+button {
+    padding: 20px;
+}
+
+img {
+    width: 100px;
+    border: solid 5px black;
+    margin: 5px;
+}

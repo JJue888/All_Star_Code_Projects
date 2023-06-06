@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+h1 {
+    text-align: center;
+}
+
+img{
+    width: 200px;
+}
+
+div {
+    border: 5px solid black;
+    margin: 50px;
+    display: flex;
+}
+
+#one {
+    background-color: aqua;
+    justify-content: center;
+}
+
+#two {
+    background-color: green;
+    justify-content: flex-end;
+}
+
+#three {
+    background-color: purple;
+    justify-content: flex-start;
+}
+
+#four {
+    background-color: pink;
+    justify-content: space-between;
+}
+
+#five {
+    background-color: red;
+    justify-content: space-evenly;
+}

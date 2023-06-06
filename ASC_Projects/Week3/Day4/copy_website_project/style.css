@@ -1,0 +1,54 @@
+body{
+    background-color: #FFFFFF;
+    font-family: speedee;
+}
+
+.header1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.header2 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 4;
+    justify-content: space-around;
+    justify-content: flex-start;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 4;
+    justify-content: space-around;
+    justify-content: flex-end;
+}
+
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.images {
+    align-items: center;
+}
+
+.adTitle {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
