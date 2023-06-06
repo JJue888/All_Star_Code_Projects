@@ -1,3 +1,15 @@
 [submodule "myfirstrepository"]
 	path = myfirstrepository
 	url = https://github.com/JJue888/myfirstrepository.git
+[submodule "ugly_html_project"]
+	path = ugly_html_project
+	url = https://github.com/JJue888/ugly_html_project.git
+[submodule "week3.day0.DOM-and-Events"]
+	path = week3.day0.DOM-and-Events
+	url = https://github.com/JJue888/week3.day0.DOM-and-Events.git
+[submodule "week3_day3_challenges"]
+	path = week3_day3_challenges
+	url = https://github.com/JJue888/week3_day3_challenges.git
+[submodule "responsive_design"]
+	path = responsive_design
+	url = https://github.com/JJue888/responsive_design.git
